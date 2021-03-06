@@ -2,3 +2,15 @@
   width: 640px;
   background-color: var(--color-white);
 }
+
+.button {
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: var(--color-active);
+  border: none;
+  color: var(--color-white);
+}
+
+.button:hover {
+  filter: brightness(70%);
+}
